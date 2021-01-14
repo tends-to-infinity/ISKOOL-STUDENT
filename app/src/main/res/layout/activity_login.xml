@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbg"
+    tools:context=".Login.LoginActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/slogo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/lllll"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/lllll"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llLoginLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:visibility="visible"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etLoginEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:backgroundTint="@color/grey"
+                android:gravity="center"
+                android:ems="10"
+                android:hint="Email "
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:backgroundTint="@color/grey"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnLoginLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_stroke_dark"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/grey"
+                android:text="Login" />
+
+            <TextView
+                android:id="@+id/tvLoginSignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:textColor="@color/grey"
+                android:text="New User? SignUp here" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSignUpSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <EditText
+                android:id="@+id/etStudentName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:backgroundTint="@color/grey"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:hint="Name "
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/etSignUpEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:backgroundTint="@color/grey"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Email "
+                android:inputType="textEmailAddress" />
+
+            <Spinner
+                android:id="@+id/spinnerSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:backgroundTint="@color/grey"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:spinnerMode="dropdown" />
+
+            <EditText
+                android:id="@+id/etSignUpPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:backgroundTint="@color/grey"
+                android:gravity="center"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_stroke_dark"
+                android:backgroundTint="@color/colorAccent"
+                android:textColor="@color/grey"
+                android:text="SignUp" />
+
+            <TextView
+                android:id="@+id/tvSignupLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/grey"
+                android:layout_marginTop="20dp"
+                android:text="Already Registered? Login !" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

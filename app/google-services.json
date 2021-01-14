@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442503677804",
+    "firebase_url": "https://iskool-251ff.firebaseio.com",
+    "project_id": "iskool-251ff",
+    "storage_bucket": "iskool-251ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442503677804:android:e636ada9cb22b15b745549",
+        "android_client_info": {
+          "package_name": "com.iskool.iskool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442503677804-rt11hil11e90glp9idn2mjb4n1tljhoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iskool.iskool",
+            "certificate_hash": "b73b879e396c5db001ae5c9199f836ff5a66384a"
+          }
+        },
+        {
+          "client_id": "442503677804-rlikhhaokthf5sm2ohm8itjvdptda35m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8dfZN-nghdGGtkibQYiu_53vZq5GxyS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442503677804-rlikhhaokthf5sm2ohm8itjvdptda35m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
